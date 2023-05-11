@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "MontSerrat";
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+.layout-grid{
+    margin: 0 auto;
+    width: 80%;
+}
+header .cabecalho{
+    width: 100%;
+    background-color: #1D9A6C;
+    height: 70px;
+}
+header .header-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+header .header-flex nav a{
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  margin-right: 50px;
+  font-family: "MontSerrat";
+  padding: 5px;
+}
+header .header-flex nav a:hover{
+    border: 2px solid #FF9140;
+    border-radius: 10px;
+    color: rgb(219, 217, 217);
+}
+header .header-flex nav a:last-of-type{
+    margin-right: 0;
+}
+section .destaque{
+    width: 100%;
+    background-color: rgb(245, 242, 242);
+    height: 550px;
+}
+section .destaque .image{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 62px;
+}
+
+section .destaque  .banner{
+padding-top: 80px;
+padding-left: calc(50% - 497px);
+}
+section .circle{
+    padding-top: 40px;
+    width: 200px;
+    display: flex;
+    margin-left: calc(50% - 100px);
+    justify-content: space-between;
+   
+}
+.circle div{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #A1A1A1;
+}
+.circle div:hover{
+background-color: gray;
+transition: 0.4s;
+}
