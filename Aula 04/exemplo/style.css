@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.quadro01{
+    margin: 50px 10px 20px 30px;
+    background-color: blueviolet;
+}
+
+.quadro02{
+    background-color: blue;
+}
+
+.quadro01, .quadro02{
+    padding: 10px 15px 20px 25px;
+}
+p{
+    color: white;
+    font-size: 18px;
+}
