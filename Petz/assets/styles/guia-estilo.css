@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:wght@400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Zerar as contagens do navegador */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: var(--secundaria-fonte);
+}
+
+/* Variaveis */
+:root {
+    --background-color: #fbfbfb;
+
+    --cor-primaria-texto: #33303e;
+    --cor-secundaria-texto: #4e4d59;
+    --cor-terciaria-texto: #f5f5f5;
+    --cor-quartenaria-texto: #7a7786;
+
+    --primaria-cor: #ff8800;
+    --primaria-cor-one: #ff6e22;
+    --primaria-cor-two: #ff950d;
+    --secundaria-cor: #0088ae;
+
+    --adicional-cor-amarelo: #ffe74c;
+    --adicional-cor-azul: #66acff;
+    --adicional-cor-roxo: #a944ff;
+
+    --primaria-fonte: "Mochiy Pop One", sans-serif;
+    --secundaria-fonte: "Raleway", sans-serif;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.d-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+html{
+    background-color: var(--background-color);
+}
+
+img.logomarca{
+    width: 12vw;
+}
+
+.container-pz{
+    width: 85%;
+    margin: 0 auto;
+}
+/* Estilizando cabeçalho */
+
+.cabecalho {
+    padding: 2rem 0px;
+    box-shadow: 0px 1px 10px #000000;
+}
+
+nav.menu {
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+ul.links-navegacao li a
+{
+    padding: 1rem;
+    font-size: 1.4em;
+    font-weight: 600;
+    color: var(--cor-secundaria-texto);
+}
+ul.links-navegacao li.registrar a
+{
+    color: var(--primaria-cor-one);
+}
+h2.titulo{
+    font-size: 3em;
+    font-weight: 700;
+    line-height: 4rem;
+    color: var(--cor-primaria-texto);
+}
+p.descricao
+{
+    font-size: 1.45rem;
+    font-weight: 500;
+    color: var(--color-secondary-text);
+    line-height: 2.2rem;
+}
+@media screen and (max-width: 1200px)
+{
+ h2.titulo
+ {
+     font-size: 2rem;
+     line-height: 3.4rem;
+ }
+ p.descricao
+ {
+     font-size: 1.25em;
+     line-height: 2rem;
+
+ }
+}
+
+@media (max-width: 1024px)
+{
+    h2.titulo
+    {
+        line-height: 3rem;
+    }
+    p.descricao
+    {
+        font-size: 1.15em;
+   
+    }
+}

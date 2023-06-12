@@ -1,0 +1,297 @@
+        main.corpo-principal {
+            margin-top: 3rem;
+        }
+        
+        .painel-principal {
+            align-items: center;
+            width: 85%;
+            margin: 0 auto 6rem;
+            /* margin-bottom: 6rem !important; */
+        }
+        
+        div.partes-fotos-01 div img {
+            border-radius: 10px;
+            width: 8vw;
+        }
+        
+        div.partes-fotos-02 div img {
+            border-radius: 10px;
+            width: 18vw;
+        }
+        
+        div.anuncio-petz button.botao-principal {
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 10px;
+            padding: 0.8rem 2rem;
+            font-family: var(--primaria-fonte);
+            color: var(--cor-terciaria-texto);
+            background-color: var(--primaria-cor-two);
+            border: 1px solid var(--cor-terciaria-texto);
+        }
+        
+        .painel-principal div.imagens-petz {
+            gap: 30px;
+            width: 50%;
+            justify-content: flex-end;
+            border-radius: 10px;
+        }
+        
+        div.partes-fotos-01 {
+            justify-content: space-between;
+        }
+        
+        .painel-principal div.anuncio-petz {
+            width: 50%;
+            gap: 30px;
+            align-items: flex-start;
+        }
+        
+        section.tipos-perfil {
+            padding: 3rem 0px;
+            background-color: #ff880026;
+            align-items: center;
+        }
+        
+        section.tipos-perfil h2 {
+            width: 52%;
+            text-align: center;
+        }
+        
+        .cards-container {
+            width: 80%;
+            justify-content: space-around;
+            margin-top: 3rem;
+        }
+        
+        .cards-container div.card-perfil {
+            width: 28vw;
+            padding: 2rem;
+            border-radius: 10px;
+            background-color: var(--background-color);
+            box-shadow: 2px 5px 15px #4e4b5926;
+        }
+        
+        .cards-container div.card-perfil img {
+            width: 16vw;
+        }
+        
+        .cards-container div.card-perfil,
+        .cards-container div.card-perfil div {
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        div.card-perfil div a.link-card {
+            font-size: 1.4em;
+            font-weight: 600;
+            margin-top: 1rem;
+            text-decoration: underline;
+        }
+        
+        div.card-perfil div {
+            width: 80%;
+            gap: 20px;
+        }
+        
+        div.card-perfil div p {
+            text-align: center;
+        }
+        
+        div.card-perfil:nth-child(1) div a.link-card {
+            color: var(--adicional-cor-roxo);
+        }
+        
+        a.link-card {
+            color: var(--secundaria-cor);
+        }
+        /* Estilizando a seção de valores */
+        
+        section.valores-plataforma {
+            padding-top: 4rem;
+            padding-bottom: 2rem;
+            align-items: stretch;
+            justify-content: space-between;
+        }
+        
+        section.valores-plataforma div.sobre-os-valores {
+            gap: 30px;
+            width: 50%;
+        }
+        
+        section.valores-plataforma div.valores-topicos {
+            gap: 30px;
+            justify-content: space-evenly;
+        }
+        
+        div.valores-topicos div.linhas-valores {
+            padding: 1.5rem 0px;
+            justify-content: space-around;
+        }
+        
+        div.valores-topicos div.pilar {
+            margin: 2rem;
+            text-align: center;
+            align-items: center;
+        }
+        
+        div.pilar span {
+            font-size: 2em;
+            border-radius: 10px;
+            padding: 1rem 1.2rem;
+            color: var(--background-color);
+            box-shadow: 0px 4px 15px #00000033;
+        }
+        
+        div.pilar p {
+            font-size: 1.25em;
+            margin-top: 1rem;
+            font-weight: 600;
+            text-align: justify;
+        }
+        
+        div.pilar span.box-laranja {
+            background-color: var(--primaria-cor);
+        }
+        
+        div.pilar span.box-azul {
+            background-color: var(--secundaria-cor);
+        }
+        
+        div.pilar span.box-roxo {
+            background-color: var(--adicional-cor-roxo);
+        }
+        
+        footer.rodape {
+            background-color: var(--secundaria-cor);
+        }
+        
+        .conteudo-rodape {
+            padding: 1rem;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .redes-sociais {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: var(--background-color);
+        }
+        
+        .redes-sociais i {
+            margin: 0 5px;
+        }
+        
+        .copyright {
+            justify-content: center;
+            padding-bottom: 15px;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: var(--background-color);
+        }
+        /* Medidas responsivas de até 1200px */
+        
+        @media screen and (max-width: 1200px) {
+            a.link-card {
+                font-size: 1em;
+            }
+        }
+        
+        @media (max-width: 1024px) {
+            .painel-principal div.anuncio-petz {
+                gap: 15px;
+            }
+            div.anuncio-petz button.botao-principal {
+                font-size: 1.2em;
+                padding: 1rem 2rem;
+            }
+            div.partes-fotos-02 div img {
+                width: 25vw;
+            }
+            .painel-principal div.imagens-petz {
+                gap: 15px;
+            }
+            section.tipos-perfil h2 {
+                width: 70%;
+            }
+            .cards-container div.card-perfil {
+                width: 30vw;
+                padding: 1.5rem;
+            }
+            section.valores-plataforma {
+                flex-direction: column;
+            }
+            section.valores-plataforma div.sobre-os-valores {
+                width: 100%;
+                text-align: justify;
+            }
+            section.valores-plataforma div.valores-topicos {
+                gap: 30px;
+            }
+            div.valores-topicos div.pilar {
+                margin: 1rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .cards-container {
+                gap: 30px;
+                flex-direction: column !important;
+                justify-content: space-around;
+            }
+            .cards-container div.card-perfil {
+                gap: 12px;
+                width: 100%;
+                flex-direction: row;
+            }
+            .painel-principal {
+                flex-direction: column-reverse !important;
+                margin: 0 auto 5rem;
+                gap: 40px;
+            }
+            .painel-principal div.imagens-petz {
+                justify-content: center;
+            }
+            .painel-principal div.anuncio-petz {
+                align-items: center;
+            }
+            a.link-card {
+                font-size: 1.2em;
+            }
+        }
+        
+        @media (max-width: 700px) {
+            .painel-principal {
+                margin-bottom: 4rem;
+            }
+            div.partes-fotos-01 img {
+                width: 17vw;
+            }
+            div.partes-fotos-02 img {
+                width: 40vw;
+            }
+            div.card-perfil div {
+                width: 90%;
+            }
+            .cards-container div.card-perfil img {
+                width: 22vw;
+            }
+        }
+        
+        @media (max-width: 600px) {
+            section.tipos-perfil h2 {
+                width: 85%;
+            }
+            .cards-container div.card-perfil {
+                margin: 0 10px;
+            }
+        }
+        
+        @media(max-width:500px) {
+            .cards-container div.card-perfil {
+                width: 80%;
+                padding: 1.5rem;
+                flex-direction: column;
+            }
+        }
