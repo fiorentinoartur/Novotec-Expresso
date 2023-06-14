@@ -120,3 +120,37 @@ p.descricao
    
     }
 }
+@media (max-width: 768px)
+{
+    img.logomarca{
+        width: 20vw;
+    }
+    h2.titulo{
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    }
+}
+@media (max-width: 700px)
+{
+    h2.titulo
+    {
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+
+}
+@media (max-width:600px)
+{
+    .conteudo-rodape
+    {
+        gap: 10px;
+        flex-direction: column;
+    }
+    .copyright
+    {
+        font-size: 1em;
+    }
+    img .logomarca{
+        width: 25vw;
+    }
+}
